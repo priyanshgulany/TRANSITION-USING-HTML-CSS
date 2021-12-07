@@ -1,0 +1,15 @@
+button{
+    border: 10px solid orange;
+    color: orange;
+    position: relative;
+    margin: 30% 50%;
+}
+img{
+    position: absolute;
+}
+button:hover{
+    font-size: 50px;
+    box-shadow: 3px 3px red, -1em 0 .4em olive;
+    transform: scale(0.5, 0.5);
+    transform: translateX(1);
+}
